@@ -24,7 +24,7 @@ public class Perro {
     }
     public boolean respondeA(String unNombre)
     {
-        return this.nombre.equals(unNombre)
+        return this.nombre.equals(unNombre);
     }
     
 }
