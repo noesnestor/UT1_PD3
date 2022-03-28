@@ -7,6 +7,7 @@
  *
  * @author Néstor
  */
+
 public class Perro implements IMamifero
 {
     private String nombre;
@@ -38,6 +39,7 @@ public class Perro implements IMamifero
     {
         System.out.println("El perro salta");
     }
+
     public boolean respondeA(String unNombre)
     {
         return this.nombre.equals(unNombre);
