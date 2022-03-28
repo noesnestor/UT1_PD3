@@ -14,7 +14,19 @@ public class main {
      */
     public static void main(String[] args) 
     {
+        Gato gato = new Gato("Carmela");
+        Perro unPerro = new Perro("Dunkel");
+        System.out.println("El gato responde a Carmela? : " + gato.respondeA("Carmela"));
+        System.out.println("Responde a Juan "+unPerro.respondeA("Juan"));
+        System.out.println("Responde a Dunkel " +unPerro.respondeA("Dunkel"));
         
+        //Maquina A
+        unPerro.caminar();
+        unPerro.saltar();
+        
+        //Maquina B
+        gato.maullar();
+        gato.correr();
     }
     
 }

@@ -40,6 +40,6 @@ public class Gato implements IMamifero
     }
     public boolean respondeA(String unNombre)
     {
-        return this.nombre.equals(unNombre);
+        return false; //NUNCA RESPONDEN!!!;
     }
 }
