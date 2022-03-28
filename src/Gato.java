@@ -7,7 +7,7 @@
  *
  * @author Néstor
  */
-public class Gato 
+public class Gato implements IMamifero
 {
     private String nombre;
     
@@ -19,9 +19,24 @@ public class Gato
     {
         return this.nombre;
     }
-    public void ladrar()
+    public void maullar()
     {
-        System.out.println("Wof");
+        System.out.println("miau");
+    }
+    @Override
+    public void caminar()
+    {
+        System.out.println("El gato camina");
+    }
+    @Override
+    public void correr()
+    {
+        System.out.println("El gato corre");
+    }
+    @Override
+    public void saltar()
+    {
+        System.out.println("El gato salta");
     }
     public boolean respondeA(String unNombre)
     {
